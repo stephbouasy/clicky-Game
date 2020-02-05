@@ -32,3 +32,8 @@ function appendMessage(message) {
   messageElement.innerText = message
   messageContainer.append(messageElement)
 }
+
+module.exports = {
+  App: require("./app"),
+  Server: require("./server")
+};

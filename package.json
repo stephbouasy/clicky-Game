@@ -4,8 +4,8 @@
   "description": "Test for a potential project",
   "main": "index.js",
   "scripts": {
-  "devStart": "nodemon server.js"
-},
+    "devStart": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stephbouasy/projectTest.git"
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stephbouasy/projectTest#readme",
   "dependencies": {
+    "ibm-watson": "^5.3.1",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
