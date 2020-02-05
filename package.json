@@ -1,0 +1,25 @@
+{
+  "name": "projecttest",
+  "version": "1.0.0",
+  "description": "Test for a potential project",
+  "main": "index.js",
+  "scripts": {
+  "devStart": "nodemon server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephbouasy/projectTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephbouasy/projectTest/issues"
+  },
+  "homepage": "https://github.com/stephbouasy/projectTest#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
