@@ -1,26 +1,20 @@
 {
-  "name": "projecttest",
-  "version": "1.0.0",
-  "description": "Test for a potential project",
-  "main": "index.js",
-  "scripts": {
-    "devStart": "nodemon server.js"
+  "name": "stephanie-bouasy-clicky-game",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "5.6.0",
+    "node": "8.9.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stephbouasy/projectTest.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stephbouasy/projectTest/issues"
-  },
-  "homepage": "https://github.com/stephbouasy/projectTest#readme",
   "dependencies": {
-    "ibm-watson": "^5.3.1",
-    "socket.io": "^2.3.0"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
