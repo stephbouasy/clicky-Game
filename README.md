@@ -1,2 +1,2 @@
-# projectTest
-Test for a potential project 
+# Clicky-Game
+
